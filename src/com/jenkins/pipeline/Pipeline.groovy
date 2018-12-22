@@ -6,7 +6,7 @@ class Pipeline {
 
         jenkins.node(node){
 
-            jenkins.checkout scm
+            jenkins.checkout jenkins.scm
 
             jenkins.stage('compile'){
 
