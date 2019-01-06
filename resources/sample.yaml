@@ -1,0 +1,2 @@
+compile:
+  command: compile -T 1C -q -X
